@@ -11,7 +11,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="about" element={<h1>About</h1>} />
+          <Route path="about" element={<h1>Welcome To About Page Ya Zmelllly</h1>} />
           <Route path="contact" element={<Contact />} />
           <Route path="product/:slug" element={<ProductDetails />} />
         </Routes>
